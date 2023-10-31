@@ -1,0 +1,2 @@
+gdalwarp -t_srs "+proj=sinu +lon_0=0 + x_0=0 +y_0=0 +a=6371007.171 +b=6371007.181 +units=m +no_defs" -dstnodata -999.0 -r near -of GTiff sodankyla.dtm.tif sodankyla.dtm.modisgrid.tif
+
